@@ -711,6 +711,7 @@ body {
 .subscribe-form {
     display: inline-flex;
     margin-right: 0;
+    padding: 0;
 }
 
 .subscribe-form__email {
