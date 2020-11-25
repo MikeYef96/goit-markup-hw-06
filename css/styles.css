@@ -24,6 +24,26 @@ ul {
     list-style: none;
 }
 
+button {
+    font-family: inherit;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+/*FLEX FOR MAIN=============================================*/
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+}
+
+/*FLEX FOR MAIN=============================================*/
+
+
 /*HEADER START======================================================*/
 /* .page-header {
     position: fixed;
@@ -105,22 +125,6 @@ ul {
 }
 
 .studio-link::after {
-    content: '';
-    display: block;
-
-    position: absolute;
-    left: 0;
-    bottom: -32px;
-    width: 100%;
-    border-bottom: 4px solid var(--background-button);
-    border-radius: 2px;
-}
-
-.portfolio-link {
-    color: var(--background-button);
-}
-
-.portfolio-link::after {
     content: '';
     display: block;
 
@@ -224,10 +228,6 @@ ul {
 
 /*CONTACTS END==================================================*/
 
-button {
-    font-family: inherit;
-}
-
 /*==================MAIN START=====================================*/
 /* main {
     position: relative;
@@ -239,9 +239,6 @@ button {
 
 /*HERO BLOCK START===============================================*/
 
-body {
-    font-family: Roboto, sans-serif;
-}
 
 .hero {
     max-width: 1600px;
@@ -291,22 +288,13 @@ body {
 /*HERO BLOCK END==================================================*/
 
 /*BENEFITS START===============================================*/
+
+
 .benefits-section {
     letter-spacing: 0.03em;
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
-/*FLEX FOR MAIN=============================================*/
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 1200px;
-}
-
-/*FLEX FOR MAIN=============================================*/
 
 .benefits-section_list {
     display: flex;
@@ -722,7 +710,7 @@ body {
 
 .subscribe-form {
     display: inline-flex;
-    margin-right: auto;
+    margin-right: 0;
 }
 
 .subscribe-form__email {
@@ -1022,6 +1010,22 @@ overflow: hidden;
 /*==========MODAL WINDOW END======================*/
 
 /*PORTFOLIO.HTML START======================*/
+
+.portfolio-link {
+    color: var(--background-button);
+}
+
+.portfolio-link::after {
+    content: '';
+    display: block;
+
+    position: absolute;
+    left: 0;
+    bottom: -32px;
+    width: 100%;
+    border-bottom: 4px solid var(--background-button);
+    border-radius: 2px;
+}
 
 .filters_projects {
     padding-top: 94px;
