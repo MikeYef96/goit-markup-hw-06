@@ -689,7 +689,7 @@ body {
 .subscribe-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     max-width: 570px;
     height: 86px;
     margin-left: 93px;
@@ -710,8 +710,6 @@ body {
 
 .subscribe-form {
     display: inline-flex;
-    margin-right: 0;
-    padding: 0;
 }
 
 .subscribe-form__email {
@@ -834,7 +832,7 @@ body {
 
 .modal-form__label {
     display: inline-flex;
-    margin-top: 30px;
+    margin-top: 10px;
 
     font-family: Roboto;
     font-style: normal;
