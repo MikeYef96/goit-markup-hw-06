@@ -32,6 +32,34 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+/*=============COMPONENTS START==================*/
+
+.main-section__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--title-color);
+    margin-bottom: 50px;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+
+    /* IE6, IE7 */
+
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+/*=============COMPONENTS END==================*/
+
 /*FLEX FOR MAIN=============================================*/
 .container {
     margin-left: auto;
@@ -391,16 +419,6 @@ body {
     color: #FFFFFF;
 }
 
-.portfolio-title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    color: var(--title-color);
-    margin-bottom: 50px;
-}
-
 
 
 /*PORTFOLIO END=================================*/
@@ -477,16 +495,6 @@ body {
     margin-left: 30px;
 }
 
-.team-title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    color: var(--title-color);
-    margin-bottom: 50px;
-}
-
 .team-list_name {
     font-style: normal;
     font-weight: 500;
@@ -514,16 +522,6 @@ body {
     letter-spacing: 0.03em;
     padding-top: 94px;
     padding-bottom: 94px;
-}
-
-.clients-title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.167;
-    text-align: center;
-    color: var(--title-color);
-    margin-bottom: 50px;
 }
 
 .clients-list {
@@ -905,20 +903,6 @@ body {
 .form-textarea::placeholder {
     color: rgba(117, 117, 117, 0.5);
 }
-
-/* .visually-hidden {
-    position: absolute !important;
-    clip: rect(1px 1px 1px 1px);
-
-    /* IE6, IE7 /
-
-clip: rect(1px, 1px, 1px, 1px);
-padding: 0 !important;
-border: 0 !important;
-height: 1px !important;
-width: 1px !important;
-overflow: hidden;
-} */
 
 .form-checkbox {
     -webkit-appearance: none;
